@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#leftbox {
+    float: left;
+    width: 25%;
+}
+
+h5 {
+    background-color: #ff0000;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+#leftbox h5 a {
+    color: #ffffff;
+    font-size: 1.6em;
+    text-decoration: none;
+}
+
+#leftbox h5 a:hover {
+    color: yellow;
+}
+
+#leftbox h5:nth-child(1)::first-letter {
+    color: black;
+}
+
+#leftbox h5:nth-child(2)::first-letter {
+    color: blue;
+}
+
+#leftbox h5:nth-child(3)::first-letter {
+    color: teal;
+}
+
+#leftbox h5:nth-child(4)::first-letter {
+    color: lime;
+}
+
+#leftbox h5:nth-child(5)::first-letter {
+    color: maroon;
+}
+
+#leftbox h5:nth-child(6)::first-letter {
+    color: aqua;
+}
+
+#leftbox h5:nth-child(7)::first-letter {
+    color: silver;
+}
+
+#leftbox h5:nth-child(8)::first-letter {
+    color: yellow;
+}
+
+#rightbox {
+    text-align: center;
+    font-weight: bold;
+    font-size: 300%;
+    text-shadow: 5px 5px 3px #cccccc;
+    width: 50%;
+    position:relative;
+    right: 80%;
+    width: 180%;
+}
+
+article {
+    text-align: center;
+    font-size: 1.5em;
+    position:relative;
+    right: 80%;
+    width: 180%;
+
+}
+
+#whale {
+    float: right;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    position:relative;
+    right: 80%;
+    width: 180%;
+}
